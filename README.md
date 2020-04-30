@@ -53,6 +53,10 @@ message..
 
 `kafka-consumer-groups.sh --all-groups  --bootstrap-server localhost:9092 --describe`
 
+### Delete Consumer Groups
+
+`kafka-consumer-groups.sh --bootstrap-server localhost:9091 --delete --group <group_name>`
+
 ### Purge
 
 `bin/kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic <topic-name>`
